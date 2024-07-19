@@ -30,8 +30,8 @@
         layer_1 {
             bindings = <
 &kp F1          &kp F2           &kp F3          &kp F4           &kp F5           &kp F6             &kp F7          &kp F8           &kp F9            &kp F10            &kp F11        &kp F12
-&kp CAPS        &none            &none           &none            &none            &bt BT_NXT         &none           &none            &kp UP            &none              &none          &none
-&kp LEFT_SHIFT  &none            &none           &none            &none            &bt BT_CLR         &none           &kp LEFT         &kp DOWN          &kp RIGHT          &kp SEMICOLON  &none
+&kp CAPS        &none            &none           &none            &none            &bt BT_NXT         &kp PAGE_UP     &none            &kp UP            &none              &none          &none
+&kp LEFT_SHIFT  &none            &none           &none            &none            &bt BT_CLR         &kp PAGE_DOWN   &kp LEFT         &kp DOWN          &kp RIGHT          &kp SEMICOLON  &none
 &kp LCTRL       &rgb_ug RGB_TOG  &rgb_ug RGB_ON  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_OFF    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none          &kp EQUAL
                                                  &mkp MB3         &kp SPACE        &kp LEFT_ALT       &kp RIGHT_ALT   &kp ASTERISK
                                                                   &mkp MB1         &mkp MB2           &kp ENTER
